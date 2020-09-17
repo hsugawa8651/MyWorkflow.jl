@@ -1,5 +1,5 @@
 name = "MyWorkflow"
-uuid = "7abf360e-92cb-4f35-becd-441c2614658a"
+uuid = "edc9d047-efdc-4ee8-b679-f88ffe893e9f"
 authors = ["Hiroharu Sugawara <hsugawa@gmail.com>", "Satoshi Terasaki <terasakisatoshi.math@gmail.com>"]
 version = "0.17.0"
 
