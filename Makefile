@@ -1,16 +1,17 @@
 .phony : all, pull, build, atom, web, clean
 
 OS:=$(shell uname -s)
+DOCKERACCOUNT=hsugawa8651
 DOCKERIMAGE=myworkflowjl
 
 # leave conditional branch just in case.
 ifeq ($(OS), Linux)
 TAG=latest
-REMOTE_DOCKER_REPOSITORY:=terasakisatoshi/${DOCKERIMAGE}:${TAG}
+REMOTE_DOCKER_REPOSITORY:=${DOCKERACCOUNT}/${DOCKERIMAGE}:${TAG}
 endif
 ifeq ($(OS), Darwin)
 TAG=latest
-REMOTE_DOCKER_REPOSITORY:=terasakisatoshi/${DOCKERIMAGE}:${TAG}
+REMOTE_DOCKER_REPOSITORY:=${DOCKERACCOUNT}/${DOCKERIMAGE}:${TAG}
 endif
 
 all: build

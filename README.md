@@ -1,18 +1,18 @@
 # MyWorkflow
 
-[![Build Status](https://github.com/terasakisatoshi/MyWorkflow.jl/workflows/CI/badge.svg)](https://github.com/terasakisatoshi/MyWorkflow.jl/actions)
-[![Stable](https://img.shields.io/badge/docs-stable-blue.svg)](https://terasakisatoshi.github.io/MyWorkflow.jl/stable)
-[![Dev](https://img.shields.io/badge/docs-dev-blue.svg)](https://terasakisatoshi.github.io/MyWorkflow.jl/dev)
+[![Build Status](https://github.com/hsugawa8651/MyWorkflow.jl/workflows/CI/badge.svg)](https://github.com/hsugawa8651/MyWorkflow.jl/actions)
+[![Stable](https://img.shields.io/badge/docs-stable-blue.svg)](https://hsugawa8651.github.io/MyWorkflow.jl/stable)
+[![Dev](https://img.shields.io/badge/docs-dev-blue.svg)](https://hsugawa8651.github.io/MyWorkflow.jl/dev)
 
 - An example of workflow using Docker and GitHub Actions
 
 # Have a try MyWorkflow.jl
 
-- MyWorkflow.jl master (nightly) [![Binder](https://mybinder.org/badge_logo.svg)](https://mybinder.org/v2/gh/terasakisatoshi/MyWorkflow.jl/master) Julia v1.5.1
+- MyWorkflow.jl master (nightly) [![Binder](https://mybinder.org/badge_logo.svg)](https://mybinder.org/v2/gh/hsugawa8651/MyWorkflow.jl/master) Julia v1.5.1
 
-- MyWorkflow.jl v0.17.0 (stable) [![Binder](https://mybinder.org/badge_logo.svg)](https://mybinder.org/v2/gh/terasakisatoshi/MyWorkflow.jl/v0.17.0) Julia v1.5.1
+- MyWorkflow.jl v0.17.0 (stable) [![Binder](https://mybinder.org/badge_logo.svg)](https://mybinder.org/v2/gh/hsugawa8651/MyWorkflow.jl/v0.17.0) Julia v1.5.1
 
-- MyWorkflow.jl v0.15.0 (legacy) [![Binder](https://mybinder.org/badge_logo.svg)](https://mybinder.org/v2/gh/terasakisatoshi/MyWorkflow.jl/v0.15.0) Julia v1.4.2
+- MyWorkflow.jl v0.15.0 (legacy) [![Binder](https://mybinder.org/badge_logo.svg)](https://mybinder.org/v2/gh/hsugawa8651/MyWorkflow.jl/v0.15.0) Julia v1.4.2
 
 
 # Feature
@@ -20,7 +20,7 @@
 - This repository gives us some useful techniques such as:
   1. how to utilize Docker Docker Compose with your Julia workflow.
   2. how to customize Julia's system image via PackageCompiler.jl to reduce an overhead of package's loading time e.g. Plots.jl, PyCall.jl, or DataFrames.jl etc...
-  3. how to share our work on the Internet. Check our repository on Binder from [![Binder](https://mybinder.org/badge_logo.svg)](https://mybinder.org/v2/gh/terasakisatoshi/MyWorkflow.jl/master)
+  3. how to share our work on the Internet. Check our repository on Binder from [![Binder](https://mybinder.org/badge_logo.svg)](https://mybinder.org/v2/gh/hsugawa8651/MyWorkflow.jl/master)
   4. how to use GitHub actions as a CI functionality.
   5. how to communicate between a Docker container and Juno/Atom
 

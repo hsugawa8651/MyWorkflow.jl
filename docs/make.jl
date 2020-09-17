@@ -7,12 +7,12 @@ weave("docs/src/weavesample.jmd", "github")
 
 makedocs(;
     modules=[MyWorkflow],
-    authors="Satoshi Terasaki <terasakisatoshi.math@gmail.com>",
-    repo="https://github.com/terasakisatoshi/MyWorkflow.jl/blob/{commit}{path}#L{line}",
+    authors="Hiroharu Sugawara <hsugawa@gmail.com> and Satoshi Terasaki <terasakisatoshi.math@gmail.com>",
+    repo="https://github.com/hsugawa8651/MyWorkflow.jl/blob/{commit}{path}#L{line}",
     sitename="MyWorkflow.jl",
     format=Documenter.HTML(;
         prettyurls=get(ENV, "CI", "false") == "true",
-        canonical="https://terasakisatoshi.github.io/MyWorkflow.jl",
+        canonical="https://hsugawa8651.github.io/MyWorkflow.jl",
         assets=[asset("assets/theorem.css",islocal=true)],
     ),
     pages=[
@@ -24,5 +24,5 @@ makedocs(;
 )
 
 deploydocs(;
-    repo="github.com/terasakisatoshi/MyWorkflow.jl",
+    repo="github.com/hsugawa8651/MyWorkflow.jl",
 )
