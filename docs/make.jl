@@ -7,7 +7,7 @@ weave("docs/src/weavesample.jmd", "github")
 
 makedocs(;
     modules=[MyWorkflow],
-    authors="Satoshi Terasaki <hsugawa8651.math@gmail.com>",
+    authors="Hiroharu Sugawara <hsugawa@gmail.com> and Satoshi Terasaki <terasakisatoshi.math@gmail.com>",
     repo="https://github.com/hsugawa8651/MyWorkflow.jl/blob/{commit}{path}#L{line}",
     sitename="MyWorkflow.jl",
     format=Documenter.HTML(;
