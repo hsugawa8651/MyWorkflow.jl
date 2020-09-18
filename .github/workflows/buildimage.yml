@@ -11,12 +11,12 @@ jobs:
       - uses: actions/checkout@v1
       - uses: whoan/docker-build-with-cache-action@v5
         with:
-          username: hsugawa
+          username: ${{ secrets.DOCKER_USERNAME }}
           password: ${{ secrets.DOCKER_PASSWORD }}
-          image_name: hsugawa/myworkflowjl
+          image_name: hsugawa8651/myworkflowjl
           image_tag: build
           push_image_and_stages: true
       - name: Build Docker Image
-        run: docker build --cache-from hsugawa/myworkflowjl:build -t myworkflowjl .
+        run: docker build --cache-from hsugawa8651/myworkflowjl:build -t myworkflowjl .
       - name: Runtime Test   
         run: docker run myworkflowjl julia -e 'using InteractiveUtils; versioninfo()'
